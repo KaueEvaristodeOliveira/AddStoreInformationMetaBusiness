@@ -8,7 +8,6 @@ import pyautogui
 import time
 time.sleep(1)
 
-
 #Add Store
 pyautogui.click(x=440, y=251)
 
@@ -51,7 +50,7 @@ pyautogui.write('+5541991446209')
 pyautogui.press('tab', 2)
 pyautogui.write('The Office')
 
-#Opening Hours
+#Opening Hours----------------------------------------------------------------------------------
 pyautogui.press('tab', 12)
 pyautogui.press('down')
 time.sleep(1)
