@@ -3,8 +3,7 @@
 
 # In[89]:
 
-
-#PREENCHER FORMULÁRIO DE LOJAS
+#Add store information, in Meta Business Suite
 import pyautogui 
 import time
 time.sleep(1)
@@ -156,19 +155,4 @@ pyautogui.press('enter')
 #Temporary Service Changes
 pyautogui.press('tab')#Operating as Usual
 pyautogui.click(x=773, y=858)
-
-
-# In[ ]:
-
-
-#BOT INSERINDO AS INFORMAÇÕES PARA PREENCHER O FORMULÁRIO
-import pyautogui 
-pyautogui.pause (1)
-
-
-# In[86]:
-
-
-import pyautogui 
-pyautogui.position()
 
